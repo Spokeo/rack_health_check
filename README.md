@@ -20,6 +20,17 @@ Or install it yourself as:
 
 The Rails railtie will handle everything else.
 
+## Usage
+Once installed hit /health_check and it should start returning a 200
+
+```
+curl -I 'http://localhost:3000/health_check' | grep HTTP
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+```
+
 ## Non-Rails Environment Setup
   In a non-rails environment simply add RackHealthCheck::Middleware to your middlewares
 
