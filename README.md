@@ -18,13 +18,15 @@ Or install it yourself as:
 
     $ gem install health_check
 
+The Rails railtie will handle everything else.
+
 ## Non-Rails Environment Setup
   In a non-rails environment simply add RackHealthCheck::Middleware to your middlewares
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/health_check. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/spokeo/health_check. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## TODO:
 
