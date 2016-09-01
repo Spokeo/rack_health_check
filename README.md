@@ -7,7 +7,7 @@ This will add a basic health check to your ruby Application.  Given a request to
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'health_check'
+gem 'rack_health_check'
 ```
 
 And then execute:
